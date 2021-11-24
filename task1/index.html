@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">Birds</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explore">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+            </div>
+    </header>
+    <section id="home" class="bg-dark d-flex flex-column justify-content-center align-items-center"
+        style="height: 100vh;">
+        <h1 class="text-light" style="font-size: 100px;">Welcome</h1>
+        <p class="text-muted">Get to know Birds</p>
+    </section>
+    <section id="about" class="d-flex flex-column justify-content-center align-items-center pb-5">
+        <h1 class="text-muted my-5">ABOUT</h1>
+        <p class="text-center">Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised
+            by feathers,
+            toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart,
+            and a strong yet lightweight skeleton.</p>
+    </section>
+    <section id="explore" class="d-flex flex-column justify-content-center align-items-center pb-5">
+        <h1 class="text-muted my-5">EXPLORE</h1>
+        <div class="row g-0  justify-content-center align-items-center">
+            <div class="card m-2" style="width: 18rem;">
+                <img src="https://www.thespruce.com/thmb/9eJOmDtnHA_mGS_BC1OyoS6aqQE=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/what-is-a-bird-385521-hero-645b1041792147b88f3ccdf712f11a04.jpg"
+                    class="card-img-top " alt="..." style="height: 180px;">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="http://cdn30.us1.fansshare.com/image/wallpaperdesktop/awesome-goldenpheasant-birds-hd-wallpapers-fullscreen-desktop-birds-images-background-full-screen-hd-384748680.jpg"
+                    class="card-img-top" alt="..." style="height: 180px;">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="https://nas-national-prod.s3.amazonaws.com/styles/article_hero_inline/s3/aud_apa-2019_american-robin_a1-8270-2_photo-david-hutson.jpg?itok=ix6AWYsj"
+                    class="card-img-top" alt="..." style="height: 180px;">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="d-flex flex-column justify-content-center align-items-center pb-5">
+        <h1 class="text-muted my-5">CONTACT</h1>
+        <div style="width: 90%; max-width: 800px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="d-flex justify-content-center align-items-center pb-3 ">
+        <a class="fa fa-instagram px-4 text-decoration-none" style="color: #8a3ab9; cursor: pointer;"></a>
+        <a class="fa fa-github px-4 text-decoration-none" style="color: #020f20; cursor: pointer;"></a>
+        <a class="fa fa-linkedin px-4 text-decoration-none" style="color: #007bb5; cursor: pointer;"></a>
+        <a class="fa fa-facebook px-4 text-decoration-none" style="color: #3b5998; cursor: pointer;"></a>
+        <a class="fa fa-twitter px-4 text-decoration-none" style="color: #55acee; cursor: pointer;"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
